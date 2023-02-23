@@ -35,4 +35,4 @@ jobs:
           file: "./images/base/dockerfile"
           context: "./images/base/"
           platforms: linux/arm64
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/PythonLambdaLib:trans
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/pythonlambdalib:trans
