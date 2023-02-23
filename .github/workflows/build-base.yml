@@ -32,7 +32,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          file: "./images/base/dockerfile"
-          context: "./images/base/"
+          context: .
           platforms: linux/arm64
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/pythonlambdalib:trans
