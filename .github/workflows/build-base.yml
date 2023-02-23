@@ -1,5 +1,10 @@
 name: Build ARM-x86 Image
 
+on:
+  push:
+    branches:
+      - 'master'
+
 jobs:
   # CPU image
   build-base:
